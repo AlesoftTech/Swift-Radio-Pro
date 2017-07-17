@@ -23,18 +23,6 @@ class InfoDetailViewController: UIViewController {
     // MARK: - ViewDidLoad
     //*****************************************************************
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        setupStationText()
-        setupStationLogo()
-    }
-
-    deinit {
-        // Be a good citizen.
-        downloadTask?.cancel()
-        downloadTask = nil
-    }
     
     //*****************************************************************
     // MARK: - UI Helpers
