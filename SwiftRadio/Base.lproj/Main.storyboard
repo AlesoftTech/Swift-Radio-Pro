@@ -151,7 +151,7 @@
                                 <color key="tintColor" red="0.94536505302677154" green="1" blue="0.96276365617033566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Página Web"/>
                                 <connections>
-                                    <segue destination="JNG-JO-mNv" kind="push" id="05L-Uh-O1E"/>
+                                    <segue destination="PLI-KF-2zs" kind="push" id="IxK-0b-70N"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -354,6 +354,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="qn7-TF-6lI"/>
+                    <connections>
+                        <outlet property="pagina" destination="1NP-ug-N0y" id="3mG-76-bKL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XM-Nr-wXq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -412,30 +415,30 @@
             <point key="canvasLocation" x="2119.5" y="-279.5"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="2DN-RE-VbE">
+        <scene sceneID="93c-Og-4SL">
             <objects>
-                <viewController id="JNG-JO-mNv" sceneMemberID="viewController">
+                <viewController id="PLI-KF-2zs" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1EB-og-RJx"/>
-                        <viewControllerLayoutGuide type="bottom" id="P2O-5M-dR2"/>
+                        <viewControllerLayoutGuide type="top" id="oyM-O6-Sp8"/>
+                        <viewControllerLayoutGuide type="bottom" id="rWb-OM-HAd"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6ey-eB-Do3">
+                    <view key="view" contentMode="scaleToFill" id="9nv-dM-STU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5So-mG-eJb">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ajq-Pq-fhc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uev-KU-d7p"/>
+                    <navigationItem key="navigationItem" id="3iK-Fv-JPf"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JUa-Mk-6ux" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hda-VI-Mq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697.5" y="-278.5"/>
+            <point key="canvasLocation" x="182.5" y="-653.5"/>
         </scene>
         <!--Now Playing View-->
         <scene sceneID="ufC-wZ-h7g">
