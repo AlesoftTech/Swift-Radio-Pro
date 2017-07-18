@@ -121,7 +121,7 @@
                                 <color key="tintColor" red="0.94536505299999996" green="1" blue="0.96276365620000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Facebook"/>
                                 <connections>
-                                    <segue destination="828-GC-0WD" kind="push" id="QV1-pU-IuQ"/>
+                                    <segue destination="kFt-k1-irO" kind="push" id="M6v-Um-uHO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvW-Nu-SdR">
@@ -131,7 +131,7 @@
                                 <color key="tintColor" red="0.12551841408515951" green="0.072617716537777155" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Twitter"/>
                                 <connections>
-                                    <segue destination="JHM-zJ-Evt" kind="push" id="ZiA-we-r8r"/>
+                                    <segue destination="cha-7h-MZj" kind="push" id="ybB-aL-vzc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gf-Y5-fHY">
@@ -141,7 +141,7 @@
                                 <color key="tintColor" red="0.030044876039028168" green="0.48509836196899414" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Instagram"/>
                                 <connections>
-                                    <segue destination="kI6-7T-Pii" kind="push" id="2Cx-Rr-rSJ"/>
+                                    <segue destination="qJ4-bb-2Zj" kind="push" id="yQM-gZ-P0e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Da0-pD-5fO">
@@ -333,91 +333,10 @@
             </objects>
             <point key="canvasLocation" x="-122" y="1157"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="RKB-cp-rCb">
-            <objects>
-                <viewController id="828-GC-0WD" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="X7I-gT-LPZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="LTH-Vq-Vdl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="t6v-iw-kqC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1NP-ug-N0y">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="qn7-TF-6lI"/>
-                    <connections>
-                        <outlet property="pagina" destination="1NP-ug-N0y" id="3mG-76-bKL"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0XM-Nr-wXq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1158.5" y="-279.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="MNk-2J-JQl">
-            <objects>
-                <viewController id="JHM-zJ-Evt" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5Gl-mK-9eb"/>
-                        <viewControllerLayoutGuide type="bottom" id="A24-WF-OuM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1bj-TU-lyT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUv-KM-d8B">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Mm3-Wv-A9Y"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D2h-58-JbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1636.5" y="-279.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="deo-YK-SUM">
-            <objects>
-                <viewController id="kI6-7T-Pii" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CWm-un-tEY"/>
-                        <viewControllerLayoutGuide type="bottom" id="SKW-Uz-dyV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CYe-8W-Myb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-O5-kUg">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="i6Q-dv-igm"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QLD-69-FB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2119.5" y="-279.5"/>
-        </scene>
-        <!--View Controller-->
+        <!--Pagina Web View Controller-->
         <scene sceneID="93c-Og-4SL">
             <objects>
-                <viewController id="PLI-KF-2zs" sceneMemberID="viewController">
+                <viewController id="PLI-KF-2zs" customClass="PaginaWebViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oyM-O6-Sp8"/>
                         <viewControllerLayoutGuide type="bottom" id="rWb-OM-HAd"/>
@@ -435,10 +354,42 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3iK-Fv-JPf"/>
+                    <connections>
+                        <outlet property="myWebView" destination="ajq-Pq-fhc" id="fUc-sb-iig"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hda-VI-Mq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="182.5" y="-653.5"/>
+        </scene>
+        <!--Facebook View Controller-->
+        <scene sceneID="dYc-FB-6m3">
+            <objects>
+                <viewController id="kFt-k1-irO" customClass="FacebookViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oq3-Wg-RbL"/>
+                        <viewControllerLayoutGuide type="bottom" id="juA-df-WDT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lk5-zJ-Wui">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MZF-Q5-ggf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="659"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NFC-Bu-JL5"/>
+                    <connections>
+                        <outlet property="myWebView" destination="MZF-Q5-ggf" id="TqD-nv-fsk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zIo-FH-OXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786.5" y="-423.5"/>
         </scene>
         <!--Now Playing View-->
         <scene sceneID="ufC-wZ-h7g">
@@ -615,6 +566,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="742" y="439"/>
+        </scene>
+        <!--Twitter View Controller-->
+        <scene sceneID="oEy-Zp-ruA">
+            <objects>
+                <viewController id="cha-7h-MZj" customClass="TwitterViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8PE-lh-PT2"/>
+                        <viewControllerLayoutGuide type="bottom" id="hPl-ME-etI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fR8-JU-ZZO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="irO-LH-AmO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1wS-EW-chd"/>
+                    <connections>
+                        <outlet property="myWebView" destination="irO-LH-AmO" id="WMb-Jn-EHs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SNV-tj-Ba3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1276.5" y="174.5"/>
+        </scene>
+        <!--Instagram View Controller-->
+        <scene sceneID="Tg4-LW-vs3">
+            <objects>
+                <viewController id="qJ4-bb-2Zj" customClass="InstagramViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d0B-OA-Pbr"/>
+                        <viewControllerLayoutGuide type="bottom" id="peA-1e-dHF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1He-Re-H6l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="61G-9A-8xR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Mzw-A5-Gm6"/>
+                    <connections>
+                        <outlet property="myWebView" destination="61G-9A-8xR" id="fUc-Rt-V4k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nM5-J8-gZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1931.5" y="174.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cxZ-Cy-z6Q">
